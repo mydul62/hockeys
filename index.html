@@ -33,6 +33,19 @@
       body {
         font-family: "Manrope", sans-serif;
       }
+      .container {
+        width: 95% !important;
+      }
+      @media (min-width: 640px) {
+        .container {
+          max-width: 640px;
+        }
+      }
+      @media (min-width: 768px) {
+        .container {
+          max-width: 768px;
+        }
+      }
     </style>
     <script>
       module.exports = {
@@ -50,7 +63,7 @@
   <body class="">
     <!-- main header section start  -->
     <header class="">
-      <div class="container  mx-auto">
+      <div class="container mx-auto">
         <!-- nav bar start  -->
         <nav class="py-8 lg:py-24">
           <div class="navbar bg-base-100">
@@ -164,7 +177,7 @@
     <main>
       <!-- hockeys clab section star  -->
       <div class="hockeys_clab container mx-auto my-24">
-        <hr class="border-dashed  bg-[#13131806] h-[2px]" />
+        <hr class="border-dashed bg-[#13131806] h-[2px]" />
         <div class="title lg:max-w-[607px] mx-auto space-y-6 text-center py-8">
           <h1 class="text-4xl font-extrabold text-[#131318]">
             Professional Hockeys Club
@@ -175,7 +188,9 @@
           </p>
         </div>
         <hr class="border-dashed bg-[#13131806] h-[2px]" />
-        <div class="progress_sectiion lg:flex justify-center gap-8 px-10 mt-12 space-y-5 lg:space-y-0 ">
+        <div
+          class="progress_sectiion lg:flex justify-center gap-8 px-10 mt-12 space-y-5 lg:space-y-0"
+        >
           <div class="progress1 space-y-4 text-center">
             <div
               class="radial-progress w-28 h-28 bg-[#fff] text-[#FF4240]"
@@ -262,54 +277,60 @@
         <hr class="border-dashed bg-[#13131806] h-[2px]" />
         <div class="program grid lg:grid-cols-12 gap-6 mt-12 mb-24">
           <div class="relative col-span-12 lg:col-span-6">
-            <img class="w-full" src="Images/2.png" alt="" />
+            <img class="h-[244px] lg:h-auto w-full" src="Images/2.png" alt="" />
             <div
-              class="space-y-6 absolute left-[36px] bottom-[36px] max-w-[573px]"
+              class="space-y-3 lg:space-y-6 absolute left-[36px] bottom-[36px] max-w-[573px]"
             >
-              <h3 class="text-3xl font-extrabold text-white">Junior Program</h3>
+              <h3 class="text-xl lg:text-3xl font-extrabold text-white">
+                Junior Program
+              </h3>
               <p class="font-medium text-white">
                 Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit
                 elit enim sagittis turpis in magna. Id et sed euismod natoque
                 amet nunc morbi nulla. Tortor congue sed et in.
               </p>
               <button
-                class="bg-[#FF4240] px-5 py-3 text-white text-xl font-bold cursor-pointer"
+                class="bg-[#FF4240] px-4 py-2 lg:px-6 lg:py-4 rounded-lg text-white text-xl font-bold cursor-pointer"
               >
                 Register Now!
               </button>
             </div>
           </div>
           <div class="relative col-span-12 lg:col-span-6">
-            <img class="w-full" src="Images/3.png" alt="" />
+            <img class="h-[244px] lg:h-auto w-full" src="Images/3.png" alt="" />
             <div
-              class="space-y-6 absolute left-[36px] bottom-[36px] max-w-[573px]"
+              class="space-y-3 lg:space-y-6 absolute left-[36px] bottom-[36px] max-w-[573px]"
             >
-              <h3 class="text-3xl font-extrabold text-white">Junior Program</h3>
+              <h3 class="text-xl lg:text-3xl font-extrabold text-white">
+                Junior Program
+              </h3>
               <p class="font-medium text-white">
                 Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit
                 elit enim sagittis turpis in magna. Id et sed euismod natoque
                 amet nunc morbi nulla. Tortor congue sed et in.
               </p>
               <button
-                class="bg-[#FF4240] px-5 py-3 text-white text-xl font-bold cursor-pointer"
+                class="bg-[#FF4240] px-4 py-2 lg:px-6 lg:py-4 rounded-lg text-white text-xl font-bold cursor-pointer"
               >
                 Register Now!
               </button>
             </div>
           </div>
           <div class="relative col-span-12">
-            <img class="w-full" src="Images/4.png" alt="" />
+            <img class="h-[244px] lg:h-auto w-full" src="Images/4.png" alt="" />
             <div
-              class="space-y-6 absolute left-[36px] bottom-[36px] max-w-[573px]"
+              class="space-y-3 lg:space-y-6 absolute left-[36px] bottom-[36px] max-w-[573px]"
             >
-              <h3 class="text-3xl font-extrabold text-white">Junior Program</h3>
+              <h3 class="text-xl lg:text-3xl font-extrabold text-white">
+                Junior Program
+              </h3>
               <p class="font-medium text-white">
                 Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit
                 elit enim sagittis turpis in magna. Id et sed euismod natoque
                 amet nunc morbi nulla. Tortor congue sed et in.
               </p>
               <button
-                class="bg-[#FF4240] px-5 py-3 text-white text-xl font-bold cursor-pointer"
+                class="bg-[#FF4240] px-4 py-2 lg:px-6 lg:py-4 rounded-lg text-white text-xl font-bold cursor-pointer"
               >
                 Register Now!
               </button>
@@ -318,7 +339,7 @@
         </div>
       </div>
       <!-- program section end  -->
-      <div class="new_product container mx-auto ">
+      <div class="new_product container mx-auto">
         <hr class="border-dashed bg-[#13131806] h-[2px]" />
         <div class="title lg:max-w-[607px] mx-auto space-y-6 text-center py-8">
           <h1 class="text-4xl font-extrabold text-[#131318]">
@@ -332,8 +353,10 @@
         <hr class="border-dashed bg-[#13131806] h-[2px]" />
         <div class="grid grid-cols-1 lg:grid-cols-2 gap-6 mt-12">
           <!-- flex flex-col lg:flex-row  start -->
-          <div class="flex flex-col lg:flex-row  p-4 shadow-md gap-4">
-            <figure><img class="w-full" src="Images/5.png" alt="Movie" /></figure>
+          <div class="flex flex-col lg:flex-row p-4 shadow-md gap-4">
+            <figure>
+              <img class="w-full" src="Images/5.png" alt="Movie" />
+            </figure>
             <div class="flex flex-col justify-center space-y-4">
               <div class="flex gap-4">
                 <div>
@@ -345,7 +368,9 @@
                   <span><i class="fa-regular fa-heart text-2xl"></i> 200</span>
                 </div>
               </div>
-              <h2 class="flex flex-col lg:flex-row -title text-[#131318] text-xl font-extrabold">
+              <h2
+                class="flex flex-col lg:flex-row -title text-[#131318] text-xl font-extrabold"
+              >
                 New movie is released!
               </h2>
               <p class="text-[#0D0D1299] font-medium">
@@ -355,18 +380,21 @@
                 <h2 class="text-[#FF4240] font-extrabold text-xl">
                   Price - $22.00
                 </h2>
-                <span><i class="fa-solid fa-cart-shopping text-2xl"></i> 
-                 <span class="font-medium text-[#0D0D1299]"> Delivery
-                  Fee : Free</span>
-                  </span
-                >
+                <span
+                  ><i class="fa-solid fa-cart-shopping text-2xl"></i>
+                  <span class="font-medium text-[#0D0D1299]">
+                    Delivery Fee : Free</span
+                  >
+                </span>
               </div>
             </div>
           </div>
-        <!-- flex flex-col lg:flex-row  end -->
+          <!-- flex flex-col lg:flex-row  end -->
           <!-- flex flex-col lg:flex-row  start -->
-          <div class="flex flex-col lg:flex-row   p-4 shadow-md gap-4">
-            <figure><img class="w-full" src="Images/6.png" alt="Movie" /></figure>
+          <div class="flex flex-col lg:flex-row p-4 shadow-md gap-4">
+            <figure>
+              <img class="w-full" src="Images/6.png" alt="Movie" />
+            </figure>
             <div class="flex flex-col justify-center space-y-4">
               <div class="flex gap-4">
                 <div>
@@ -378,7 +406,9 @@
                   <span><i class="fa-regular fa-heart text-2xl"></i> 200</span>
                 </div>
               </div>
-              <h2 class="flex flex-col lg:flex-row -title text-[#131318] text-xl font-extrabold">
+              <h2
+                class="flex flex-col lg:flex-row -title text-[#131318] text-xl font-extrabold"
+              >
                 New movie is released!
               </h2>
               <p class="text-[#0D0D1299] font-medium">
@@ -388,18 +418,21 @@
                 <h2 class="text-[#FF4240] font-extrabold text-xl">
                   Price - $22.00
                 </h2>
-                <span><i class="fa-solid fa-cart-shopping text-2xl"></i> 
-                 <span class="font-medium text-[#0D0D1299]"> Delivery
-                  Fee : Free</span>
-                  </span
-                >
+                <span
+                  ><i class="fa-solid fa-cart-shopping text-2xl"></i>
+                  <span class="font-medium text-[#0D0D1299]">
+                    Delivery Fee : Free</span
+                  >
+                </span>
               </div>
             </div>
           </div>
-        <!-- flex flex-col lg:flex-row  end -->
+          <!-- flex flex-col lg:flex-row  end -->
           <!-- flex flex-col lg:flex-row  start -->
-          <div class="flex flex-col lg:flex-row   p-4 shadow-md gap-4">
-            <figure><img class="w-full" src="Images/7.png" alt="Movie" /></figure>
+          <div class="flex flex-col lg:flex-row p-4 shadow-md gap-4">
+            <figure>
+              <img class="w-full" src="Images/7.png" alt="Movie" />
+            </figure>
             <div class="flex flex-col justify-center space-y-4">
               <div class="flex gap-4">
                 <div>
@@ -411,7 +444,9 @@
                   <span><i class="fa-regular fa-heart text-2xl"></i> 200</span>
                 </div>
               </div>
-              <h2 class="flex flex-col lg:flex-row -title text-[#131318] text-xl font-extrabold">
+              <h2
+                class="flex flex-col lg:flex-row -title text-[#131318] text-xl font-extrabold"
+              >
                 New movie is released!
               </h2>
               <p class="text-[#0D0D1299] font-medium">
@@ -421,18 +456,21 @@
                 <h2 class="text-[#FF4240] font-extrabold text-xl">
                   Price - $22.00
                 </h2>
-                <span><i class="fa-solid fa-cart-shopping text-2xl"></i> 
-                 <span class="font-medium text-[#0D0D1299]"> Delivery
-                  Fee : Free</span>
-                  </span
-                >
+                <span
+                  ><i class="fa-solid fa-cart-shopping text-2xl"></i>
+                  <span class="font-medium text-[#0D0D1299]">
+                    Delivery Fee : Free</span
+                  >
+                </span>
               </div>
             </div>
           </div>
-        <!-- flex flex-col lg:flex-row  end -->
+          <!-- flex flex-col lg:flex-row  end -->
           <!-- flex flex-col lg:flex-row  start -->
-          <div class="flex flex-col lg:flex-row   p-4 shadow-md gap-4">
-            <figure><img class="w-full" src="Images/8.png" alt="Movie" /></figure>
+          <div class="flex flex-col lg:flex-row p-4 shadow-md gap-4">
+            <figure>
+              <img class="w-full" src="Images/8.png" alt="Movie" />
+            </figure>
             <div class="flex flex-col justify-center space-y-4">
               <div class="flex gap-4">
                 <div>
@@ -444,7 +482,9 @@
                   <span><i class="fa-regular fa-heart text-2xl"></i> 200</span>
                 </div>
               </div>
-              <h2 class="flex flex-col lg:flex-row -title text-[#131318] text-xl font-extrabold">
+              <h2
+                class="flex flex-col lg:flex-row -title text-[#131318] text-xl font-extrabold"
+              >
                 New movie is released!
               </h2>
               <p class="text-[#0D0D1299] font-medium">
@@ -454,18 +494,21 @@
                 <h2 class="text-[#FF4240] font-extrabold text-xl">
                   Price - $22.00
                 </h2>
-                <span><i class="fa-solid fa-cart-shopping text-2xl"></i> 
-                 <span class="font-medium text-[#0D0D1299]"> Delivery
-                  Fee : Free</span>
-                  </span
-                >
+                <span
+                  ><i class="fa-solid fa-cart-shopping text-2xl"></i>
+                  <span class="font-medium text-[#0D0D1299]">
+                    Delivery Fee : Free</span
+                  >
+                </span>
               </div>
             </div>
           </div>
-        <!-- flex flex-col lg:flex-row  end -->
+          <!-- flex flex-col lg:flex-row  end -->
           <!-- flex flex-col lg:flex-row  start -->
-          <div class="flex flex-col lg:flex-row   p-4 shadow-md gap-4">
-            <figure><img class="w-full" src="Images/9.png" alt="Movie" /></figure>
+          <div class="flex flex-col lg:flex-row p-4 shadow-md gap-4">
+            <figure>
+              <img class="w-full" src="Images/9.png" alt="Movie" />
+            </figure>
             <div class="flex flex-col justify-center space-y-4">
               <div class="flex gap-4">
                 <div>
@@ -477,7 +520,9 @@
                   <span><i class="fa-regular fa-heart text-2xl"></i> 200</span>
                 </div>
               </div>
-              <h2 class="flex flex-col lg:flex-row -title text-[#131318] text-xl font-extrabold">
+              <h2
+                class="flex flex-col lg:flex-row -title text-[#131318] text-xl font-extrabold"
+              >
                 New movie is released!
               </h2>
               <p class="text-[#0D0D1299] font-medium">
@@ -487,18 +532,21 @@
                 <h2 class="text-[#FF4240] font-extrabold text-xl">
                   Price - $22.00
                 </h2>
-                <span><i class="fa-solid fa-cart-shopping text-2xl"></i> 
-                 <span class="font-medium text-[#0D0D1299]"> Delivery
-                  Fee : Free</span>
-                  </span
-                >
+                <span
+                  ><i class="fa-solid fa-cart-shopping text-2xl"></i>
+                  <span class="font-medium text-[#0D0D1299]">
+                    Delivery Fee : Free</span
+                  >
+                </span>
               </div>
             </div>
           </div>
-        <!-- flex flex-col lg:flex-row  end -->
+          <!-- flex flex-col lg:flex-row  end -->
           <!-- flex flex-col lg:flex-row  start -->
-          <div class="flex flex-col lg:flex-row   p-4 shadow-md gap-4">
-            <figure><img class="w-full" src="Images/10.png" alt="Movie" /></figure>
+          <div class="flex flex-col lg:flex-row p-4 shadow-md gap-4">
+            <figure>
+              <img class="w-full" src="Images/10.png" alt="Movie" />
+            </figure>
             <div class="flex flex-col justify-center space-y-4">
               <div class="flex gap-4">
                 <div>
@@ -510,7 +558,9 @@
                   <span><i class="fa-regular fa-heart text-2xl"></i> 200</span>
                 </div>
               </div>
-              <h2 class="flex flex-col lg:flex-row -title text-[#131318] text-xl font-extrabold">
+              <h2
+                class="flex flex-col lg:flex-row -title text-[#131318] text-xl font-extrabold"
+              >
                 New movie is released!
               </h2>
               <p class="text-[#0D0D1299] font-medium">
@@ -520,15 +570,16 @@
                 <h2 class="text-[#FF4240] font-extrabold text-xl">
                   Price - $22.00
                 </h2>
-                <span><i class="fa-solid fa-cart-shopping text-2xl"></i> 
-                 <span class="font-medium text-[#0D0D1299]"> Delivery
-                  Fee : Free</span>
-                  </span
-                >
+                <span
+                  ><i class="fa-solid fa-cart-shopping text-2xl"></i>
+                  <span class="font-medium text-[#0D0D1299]">
+                    Delivery Fee : Free</span
+                  >
+                </span>
               </div>
             </div>
           </div>
-        <!-- flex flex-col lg:flex-row  end -->
+          <!-- flex flex-col lg:flex-row  end -->
         </div>
       </div>
     </main>
