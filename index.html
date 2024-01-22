@@ -34,11 +34,23 @@
         font-family: "Manrope", sans-serif;
       }
     </style>
+    <script>
+      module.exports = {
+        theme: {
+          extend: {
+            backgroundImage: {
+              program: "url('images/2.png')",
+              "footer-texture": "url('/img/footer-texture.png')",
+            },
+          },
+        },
+      };
+    </script>
   </head>
   <body>
     <!-- main header section start  -->
     <header>
-      <div class="container mx-auto">
+      <div class="container sm:px-5 sm:px-5 mx-auto">
         <!-- nav bar start  -->
         <nav class="py-24">
           <div class="navbar bg-base-100">
@@ -151,8 +163,8 @@
     <!-- main sevction star -->
     <main>
       <!-- hockeys clab section star  -->
-      <div class="hockeys_clab container mx-auto my-24">
-        <hr class="border-dotted bg-[#13131806] h-[2px]">
+      <div class="hockeys_clab container sm:px-5 mx-auto my-24">
+        <hr class="border-dotted bg-[#13131806] h-[2px]" />
         <div class="title lg:max-w-[607px] mx-auto space-y-6 text-center py-8">
           <h1 class="text-4xl font-extrabold text-[#131318]">
             Professional Hockeys Club
@@ -162,10 +174,14 @@
             turpis placerat dolor. Purus urna in sit nullam proin.
           </p>
         </div>
-        <hr class="border-dotted bg-[#13131806] h-[2px] ">
-        <div class="progress_sectiion lg:flex  justify-center gap-8 px-10 mt-12">
+        <hr class="border-dotted bg-[#13131806] h-[2px]" />
+        <div class="progress_sectiion lg:flex justify-center gap-8 px-10 mt-12">
           <div class="progress1 space-y-4 text-center">
-            <div class="radial-progress w-28 h-28 bg-[#fff] text-[#FF4240]" style="--value: 87" role="progressbar ">
+            <div
+              class="radial-progress w-28 h-28 bg-[#fff] text-[#FF4240]"
+              style="--value: 87"
+              role="progressbar "
+            >
               <h2 class="text-black text-3xl font-extrabold">87%</h2>
             </div>
             <div class="space-y-6">
@@ -178,7 +194,11 @@
             </div>
           </div>
           <div class="progress1 space-y-4 text-center">
-            <div class="radial-progress w-28 h-28 bg-[#fff] text-[#49D293]" style="--value: 95" role="progressbar ">
+            <div
+              class="radial-progress w-28 h-28 bg-[#fff] text-[#49D293]"
+              style="--value: 95"
+              role="progressbar "
+            >
               <h2 class="text-black text-3xl font-extrabold">95%</h2>
             </div>
             <div class="space-y-6">
@@ -191,7 +211,11 @@
             </div>
           </div>
           <div class="progress1 space-y-4 text-center">
-            <div class="radial-progress w-28 h-28 bg-[#fff] text-[#FFB546]" style="--value: 90" role="progressbar ">
+            <div
+              class="radial-progress w-28 h-28 bg-[#fff] text-[#FFB546]"
+              style="--value: 90"
+              role="progressbar "
+            >
               <h2 class="text-black text-3xl font-extrabold">90%</h2>
             </div>
             <div class="space-y-6">
@@ -204,7 +228,11 @@
             </div>
           </div>
           <div class="progress1 space-y-4 text-center">
-            <div class="radial-progress w-28 h-28 bg-[#fff] text-[#4C8DF1]" style="--value: 80" role="progressbar ">
+            <div
+              class="radial-progress w-28 h-28 bg-[#fff] text-[#4C8DF1]"
+              style="--value: 80"
+              role="progressbar "
+            >
               <h2 class="text-black text-3xl font-extrabold">80%</h2>
             </div>
             <div class="space-y-6">
@@ -219,6 +247,78 @@
         </div>
       </div>
       <!-- hockeys clab section end  -->
+      <!-- program section star  -->
+      <div class="program_section container sm:px-5 mx-auto">
+        <hr class="border-dotted bg-[#13131806] h-[2px]" />
+        <div class="title lg:max-w-[607px] mx-auto space-y-6 text-center py-8">
+          <h1 class="text-4xl font-extrabold text-[#131318]">
+            Program Sections
+          </h1>
+          <p class="text-[#13131899] font-medium">
+            Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit elit
+            enim sagittis turpis in magna. Id et sed euismod natoque amet nunc
+            morbi nulla. Tortor congue sed et in.
+          </p>
+        </div>
+        <hr class="border-dotted bg-[#13131806] h-[2px]" />
+        <div class="program grid lg:grid-cols-12 gap-6">
+          <div class="relative col-span-12 lg:col-span-6">
+            <img class="w-full" src="Images/2.png" alt="" />
+            <div
+              class="space-y-6 absolute left-[36px] bottom-[36px] max-w-[573px]"
+            >
+              <h3 class="text-3xl font-extrabold text-white">Junior Program</h3>
+              <p class="font-medium text-white">
+                Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit
+                elit enim sagittis turpis in magna. Id et sed euismod natoque
+                amet nunc morbi nulla. Tortor congue sed et in.
+              </p>
+              <button
+                class="bg-[#FF4240] px-5 py-3 text-white text-xl font-bold cursor-pointer"
+              >
+                Register Now!
+              </button>
+            </div>
+          </div>
+          <div class="relative col-span-12 lg:col-span-6">
+            <img class="w-full" src="Images/2.png" alt="" />
+            <div
+              class="space-y-6 absolute left-[36px] bottom-[36px] max-w-[573px]"
+            >
+              <h3 class="text-3xl font-extrabold text-white">Junior Program</h3>
+              <p class="font-medium text-white">
+                Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit
+                elit enim sagittis turpis in magna. Id et sed euismod natoque
+                amet nunc morbi nulla. Tortor congue sed et in.
+              </p>
+              <button
+                class="bg-[#FF4240] px-5 py-3 text-white text-xl font-bold cursor-pointer"
+              >
+                Register Now!
+              </button>
+            </div>
+          </div>
+          <div class="relative col-span-12">
+            <img class="w-full" src="Images/4.png" alt="" />
+            <div
+              class="space-y-6 absolute left-[36px] bottom-[36px] max-w-[573px]"
+            >
+              <h3 class="text-3xl font-extrabold text-white">Junior Program</h3>
+              <p class="font-medium text-white">
+                Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit
+                elit enim sagittis turpis in magna. Id et sed euismod natoque
+                amet nunc morbi nulla. Tortor congue sed et in.
+              </p>
+              <button
+                class="bg-[#FF4240] px-5 py-3 text-white text-xl font-bold cursor-pointer"
+              >
+                Register Now!
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- program section end  -->
     </main>
     <!-- main section end  -->
     <footer></footer>
