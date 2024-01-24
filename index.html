@@ -144,7 +144,7 @@
           </div>
           <!-- banner bottom start -->
           <div
-            class="meet lg:absolute right-[3%] bottom-[8%] flex flex-col space-y-4 rounded-2xl bg-black w-full lg:max-w-xl p-8 sm:mt-4"
+            class="meet lg:absolute right-[3%] bottom-[8%] flex flex-col space-y-4 rounded-2xl bg-black w-full lg:max-w-xl p-8 mt-6 lg:mt-0"
           >
             <h2 class="text-[18px] lg:text-2xl font-extrabold text-white">
               Meet all the heroes from the field
@@ -274,7 +274,7 @@
           <div class="relative col-span-12 lg:col-span-6 ">
             <img class="h-[244px]  lg:h-auto w-full" src="Images/2.png" alt="" />
             <div
-              class="space-y-3 lg:space-y-6 absolute left-[36px] bottom-[36px] max-w-[573px]"
+              class="space-y-3 lg:space-y-6 absolute left-4 lg:left-[36px] bottom-4 lg:bottom-[36px] max-w-[573px]"
             >
               <h3 class="text-xl lg:text-3xl font-extrabold text-white">
                 Junior Program
@@ -292,7 +292,7 @@
           <div class="relative col-span-12 lg:col-span-6">
             <img class="h-[244px] lg:h-auto w-full" src="Images/3.png" alt="" />
             <div
-              class="space-y-3 lg:space-y-6 absolute left-[36px] bottom-[36px] max-w-[573px]"
+              class="space-y-3 lg:space-y-6 absolute left-4 lg:left-[36px] bottom-4 max-w-[573px]"
             >
               <h3 class="text-xl lg:text-3xl font-extrabold text-white">
                 Teenager Program
@@ -310,7 +310,7 @@
           <div class="relative col-span-12">
             <img class="h-[244px] lg:h-auto w-full" src="Images/4.png" alt="" />
             <div
-              class="space-y-3 lg:space-y-6 absolute left-[36px] bottom-[36px] max-w-[573px]"
+              class="space-y-3 lg:space-y-6 absolute left-4 lg:left-[36px] bottom-4 max-w-[573px]"
             >
               <h3 class="text-xl lg:text-3xl font-extrabold text-white">
                 Professional Program
@@ -761,38 +761,44 @@
     <!-- main section end  -->
     <!-- footer start  -->
     <footer class="bg-[#131318] ">
-      <div class="footer container max-w-[1170px] mx-auto grid grid-cols-2  lg:grid-cols-5 gap-24 py-10 lg:py-24">
-        <aside class="space-y-6 text-center lg:text-left col-span-2">
-          <h2 class="text-2xl lg:text-3xl text-white ">Get In Touch</h2>
+      <div class="container max-w-[1170px] sm:px-10 mx-auto grid grid-cols-2  lg:grid-cols-5 gap-24 py-10 lg:py-24">
+        <div class="space-y-10 flex flex-col justify-center lg:justify-start *:text-center lg:*:text-start lg:text-left col-span-2">
+          <h2 class="text-2xl lg:text-3xl text-white">Get In Touch</h2>
           <p class="text-[#FFFFFF99] font-medium"> Connect with us effortlessly. For inquiries <br> we're here to respond promptly and make meaningful connections. </p>
-          <ul class="text-[#FFFFFF99] font-medium mr-2 space-y-4">
-            <li><i class="fa-regular fa-envelope text-2xl text-[#FF4240] mr-2"></i> hockeys@support.com</li>
+          <ul class="text-[#FFFFFF99] font-medium mr-2 space-y-4 flex flex-col justify-center">
+          <i class="fa-regular fa-envelope text-2xl text-[#FF4240] mr-2"></i> hockeys@support.com</li>
             <li><i class="fa-solid fa-phone text-2xl text-[#FF4240] mr-2"></i> (+62) 123-321-543</li>
           </ul>
-        </aside> 
-        <nav class="space-y-3 colspa">
-          <header class="text-xl font-bold mb-4 "><h2 class="text-white">Company</h2></header> 
-          <a class=" text-[#FFFFFF99] ">About us</a>
-          <a class=" text-[#FFFFFF99] ">Leadership</a>
-          <a class=" text-[#FFFFFF99] ">Careers</a>
-          <a class=" text-[#FFFFFF99] ">News & Article</a>
-          <a class=" text-[#FFFFFF99] ">Legal Notice</a>
-        </nav> 
-        <nav class="text-[#FFFFFF99] space-y-3">
-          <header class="text-xl font-bold mb-4 text-white">Support</header> 
-          <a class=" text-[#FFFFFF99] ">Help Center</a>
-          <a class=" text-[#FFFFFF99] ">FAQ</a>
-          <a class=" text-[#FFFFFF99] ">Ticket Support</a>
-          <a class=" text-[#FFFFFF99] ">Contact Us</a>
-        </nav> 
-        <nav class="text-[#FFFFFF99] space-y-3">
-          <header class=" text-white text-xl font-bold mb-4">Services</header> 
-          <a class="text-[#FFFFFF99] ">Academy</a>
-          <a class="text-[#FFFFFF99] ">Group Lesson</a>
-          <a class="text-[#FFFFFF99] ">Private Lesson</a>
-          <a class="text-[#FFFFFF99] ">Hockeys for kids</a>
-          <a class="text-[#FFFFFF99] ">Hockeys for Adult</a>
-        </nav>
+        </div> 
+        <nav class=" text-center">
+            <h2 class="text-white text-xl font-bold mb-4">Company</h2>
+          <ul class="flex flex-col space-y-4">
+            <li><a class=" text-[#FFFFFF99] ">About us</a></li>
+              <li><a class=" text-[#FFFFFF99] ">Legal Notice</a></li>
+              <li><a class=" text-[#FFFFFF99] ">Leadership</a></li>
+              <li><a class=" text-[#FFFFFF99] ">Careers</a></li>
+              <li> <a class=" text-[#FFFFFF99] ">News & Article</a></li>
+          </ul>
+          </nav>
+        <nav class=" text-center">
+            <h2 class="text-white text-xl font-bold mb-4">Support</h2>
+          <ul class="flex flex-col space-y-4">
+            <a class=" text-[#FFFFFF99] ">Help Center</a>
+            <a class=" text-[#FFFFFF99] ">FAQ</a>
+            <a class=" text-[#FFFFFF99] ">Ticket Support</a>
+            <a class=" text-[#FFFFFF99] ">Contact Us</a>
+          </ul>
+          </nav>
+        <nav class=" text-center col-span-2 lg:col-span-1 ">
+            <h2 class="text-white text-xl font-bold mb-4">Services</h2>
+          <ul class="flex flex-col space-y-4">
+            <a class="text-[#FFFFFF99] ">Academy</a>
+            <a class="text-[#FFFFFF99] ">Group Lesson</a>
+            <a class="text-[#FFFFFF99] ">Private Lesson</a>
+            <a class="text-[#FFFFFF99] ">Hockeys for kids</a>
+            <a class="text-[#FFFFFF99] ">Hockeys for Adult</a>
+          </ul>
+          </nav>
       </div>
     </footer>
   </body>
